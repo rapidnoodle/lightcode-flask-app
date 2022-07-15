@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Contact Us
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="description">
+            <h2 class="heading-secondary">
+                Contact us
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam harum, vel quia possimus delectus autem
+                cupiditate est perferendis animi, reiciendis facere! Quae, nisi nobis assumenda perspiciatis omnis
+                consequatur sequi doloribus.</p>
+        </div>
+
+        <div class="contact-form mb">
+            <form>
+                <div class="row">
+                    <div class="input50">
+                        <input type="text" placeholder="First Name">
+                    </div>
+                    <div class="input50">
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input50">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input50">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input100">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input100">
+                        <input type="submit" value="Send"></input>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}

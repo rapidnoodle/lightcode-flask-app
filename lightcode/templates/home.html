@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="hero">
+            <div class="content">
+                <h1 class="heading-primary">
+                    We are here to help you build you'r dream project
+                </h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut odit, magni doloremque ratione itaque
+                    necessitatibus illo aliquid suscipit tempore blanditiis reprehenderit illum, dolorum exercitationem
+                    cupiditate modi voluptas? Magni, nobis ipsam.
+                </p>
+
+                <a href="{{ url_for('contact_page') }}" class="btn">contact now</a>
+            </div>
+
+            <div class="hero-img">
+                <img src="{{ url_for('static', filename='images/hero.jpg' ) }}" alt="Hero Image">
+            </div>
+        </div>
+    </div>
+{% endblock %}

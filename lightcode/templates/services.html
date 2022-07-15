@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Our Services
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="description">
+            <h2 class="heading-secondary">
+                Services that we provide
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam harum, vel quia possimus delectus autem
+                cupiditate est perferendis animi, reiciendis facere! Quae, nisi nobis assumenda perspiciatis omnis
+                consequatur sequi doloribus.</p>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <div class="icon">
+                    <img src="{{ url_for('static', filename='images/img-1.png' ) }}" alt="Image 1">
+                </div>
+
+                <h3 class="heading-tertiary">Marketing</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis ipsam earum eaque facere saepe
+                    neque.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <img src="{{ url_for('static', filename='images/img-2.png' ) }}" alt="Image 2">
+                </div>
+
+                <h3 class="heading-tertiary">App Development</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis ipsam earum eaque facere saepe
+                    neque.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <img src="{{ url_for('static', filename='images/img-3.png' ) }}" alt="Image 3">
+                </div>
+
+                <h3 class="heading-tertiary">Error Fixing</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis ipsam earum eaque facere saepe
+                    neque.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <img src="{{ url_for('static', filename='images/img-4.png' ) }}" alt="Image 4">
+                </div>
+
+                <h3 class="heading-tertiary">Design</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis ipsam earum eaque facere saepe
+                    neque.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <img src="{{ url_for('static', filename='images/img-5.png' ) }}" alt="Image 5">
+                </div>
+
+                <h3 class="heading-tertiary">Development</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis ipsam earum eaque facere saepe
+                    neque.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <img src="{{ url_for('static', filename='images/img-6.png' ) }}" alt="Image 6">
+                </div>
+
+                <h3 class="heading-tertiary">SEO</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis ipsam earum eaque facere saepe
+                    neque.
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

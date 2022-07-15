@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Our Work
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="description">
+            <h2 class="heading-secondary">
+                Some of our works
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam harum, vel quia possimus delectus autem
+                cupiditate est perferendis animi, reiciendis facere! Quae, nisi nobis assumenda perspiciatis omnis
+                consequatur sequi doloribus.</p>
+        </div>
+
+        <div class="work mb">
+            <img src="{{ url_for('static', filename='images/work-1.jpg' ) }}" alt="Work Image 1">
+            <img src="{{ url_for('static', filename='images/work-2.jpg' ) }}" alt="Work Image 2">
+            <img src="{{ url_for('static', filename='images/work-3.jpg' ) }}" alt="Work Image 3">
+            <img src="{{ url_for('static', filename='images/work-4.jpg' ) }}" alt="Work Image 4">
+            <img src="{{ url_for('static', filename='images/work-5.jpg' ) }}" alt="Work Image 5">
+        </div>
+    </div>
+{% endblock %}
