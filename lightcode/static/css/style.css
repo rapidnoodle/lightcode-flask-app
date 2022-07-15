@@ -1,5 +1,5 @@
 :root {
-  --primary-color:rgb(62, 35, 80);
+  --primary-color: rgb(62, 35, 80);
   --color-white: #fff;
   --color-black: rgb(46, 38, 24);
 }
@@ -217,6 +217,7 @@ header {
 }
 
 @media(max-width:950px) {
+
   .hero-img,
   .sub-nav {
     display: none;
